@@ -2,16 +2,25 @@ nav > ul{
   display: flex;
   
 }
-nav > ul >li{
+nav > ul li{
   list-style: none;
   margin-right:10px;
   padding:5px;
 }
-nav > ul > li:hover{
+nav > ul  li:hover{
   background-color: antiquewhite;
 }
-nav > ul> li >a{
+nav > ul> li a{
   text-decoration:none;
   color:black;
   font-size:large;
+}
+nav  li ul{
+  display: none;
+
+} 
+nav  li:hover ul{
+  display: block;
+  position: absolute;
+
 }
