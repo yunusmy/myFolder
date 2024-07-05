@@ -16,3 +16,21 @@ th,td{
 .round{
   font-weight:bold;
 }
+/* image */
+img{
+  width:25%;
+  margin: 5px 0px;
+}
+
+/* Form */
+input,textarea{
+  display: block;
+    margin:5px 0px;
+
+}
+
+main{
+  /* margin:0px auto; */
+  background-color: beige;
+  /* text-align: center; */
+}
