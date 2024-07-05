@@ -23,7 +23,7 @@ img{
 }
 
 /* Form */
-input,textarea{
+form > input,textarea{
   display: block;
     margin:5px 0px;
 
